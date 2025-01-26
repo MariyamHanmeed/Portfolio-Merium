@@ -27,7 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
         // Recipients
         $mail->setFrom('mariyamhameed789@gmail.com', 'Portfolio Contact');
-        $mail->addAddress('meriumhameed@gmail.com'); 
+        $mail->addAddress('mariyamhameed789@gmail.com'); 
 
         // Content
         $mail->isHTML(true);
